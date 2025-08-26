@@ -1,7 +1,7 @@
 import { Client, GatewayIntentBits } from "discord.js";
 import axios from "axios";
 
-const TOKEN = "MTQwOTg0MjMxNzc2MTg0MzIyMg.GDDDQI.2IrCh84G5FD6BWUOpiMCSPvsjwD-X7MYjdCoA0";
+const TOKEN = "MTQwOTg0MjMxNzc2MTg0MzIyMg.GSOS2j.nRjjLGzYa1hCMZF_DW1Nc-U3Msesu4y_6gFJro";
 
 // Keyword dasar (bahaya umum)
 const suspiciousKeywords = [
@@ -91,6 +91,3 @@ client.on("messageCreate", async (msg) => {
 });
 
 client.login(TOKEN);
-
-
-
