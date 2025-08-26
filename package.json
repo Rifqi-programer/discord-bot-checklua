@@ -1,0 +1,17 @@
+{
+  "name": "discord-bot-checklua",
+  "version": "1.0.0",
+  "description": "Discord bot untuk cek file Lua berbahaya",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "discord.js": "^14.22.1"
+  }
+}
